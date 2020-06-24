@@ -1,0 +1,27 @@
+package connectors;
+/*  
+	RFC_destination
+	- Serveur java local qui "ecoute" des modules SAP
+	
+	Creation du fonction module z_fm
+	- paramètre import/export (pass by value)+ erreur 
+	- aucun code nécessaire (géré dans Java)
+	
+	Mise en place
+	- Enregistrer un écouteur dans SAPServer
+	- Implémentation de la méthode dans HandlerZ_xxx
+	
+	Contenu du handler
+	- Voir les paramètres du module dans SAP E37
+	
+	Tester fonction
+	- Démarrer serveur Java
+	- SE37 
+		o RFC Target System : 2020_RFC_E80
+	
+	Acces user SAP au module:
+	 - new program > test program
+	 - appel function avec pattern + DESTINATION '2020_RFC_E80'
+
+	
+*/

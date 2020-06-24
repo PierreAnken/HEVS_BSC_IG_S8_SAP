@@ -1,0 +1,206 @@
+
+**** Error file opened at 20200624 182503 Central European Summer Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Exception thrown [Wed Jun 24 18:25:03,543]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field ES_EMPLOYE is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.getStructure(AbstractRecord.java:3246)
+	at com.sap.conn.jco.rt.AbstractRecord.getStructure(AbstractRecord.java:48)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:23)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20200624 182555 Central European Summer Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Exception thrown [Wed Jun 24 18:25:55,697]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20200624 182645 Central European Summer Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Exception thrown [Wed Jun 24 18:26:45,123]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 18:28:50,795]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20200624 182932 Central European Summer Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Exception thrown [Wed Jun 24 18:29:32,169]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+
+**** Error file opened at 20200624 183013 Central European Summer Time Rel. 3.0.19 (2018-12-03) [721.1120]
+Exception thrown [Wed Jun 24 18:30:13,119]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 19:45:54,139]: Exception thrown in JCo Server
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at com.sap.conn.jco.rt.Converter.encodeNumber(Converter.java:159)
+	at com.sap.conn.jco.rt.Parameter.setBytes(Parameter.java:143)
+	at com.sap.conn.rfc.engine.RfcGetImp.ab_rfcfvalue(RfcGetImp.java:155)
+	at com.sap.conn.rfc.engine.RfcGet.ab_rfcget(RfcGet.java:152)
+	at com.sap.conn.rfc.engine.RfcRcv.ab_rfcreceive(RfcRcv.java:35)
+	at com.sap.conn.rfc.engine.RfcIoOpenCntl.RfcGetData(RfcIoOpenCntl.java:2413)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3589)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 20:08:27,579]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 20:11:31,611]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 20:12:11,854]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 20:16:47,153]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 20:18:08,682]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
+Exception thrown [Wed Jun 24 20:18:23,856]: Exception thrown by application running in JCoServer
+com.sap.conn.jco.JCoRuntimeException: (127) JCO_ERROR_FIELD_NOT_FOUND: Field EV_RESULT is not a member of OUTPUT
+	at com.sap.conn.jco.rt.AbstractMetaData.indexOf(AbstractMetaData.java:410)
+	at com.sap.conn.jco.rt.AbstractRecord.setValue(AbstractRecord.java:4393)
+	at sapserver.HandlerZ_FM_STRUCTURE.handleRequest(HandlerZ_FM_STRUCTURE.java:28)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1047)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:983)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:147)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3680)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2717)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:274)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:362)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:231)
+	at java.lang.Thread.run(Unknown Source)
+
