@@ -1,0 +1,16 @@
+package sapserver;
+
+import com.sap.conn.jco.AbapClassException;
+import com.sap.conn.jco.AbapException;
+import com.sap.conn.jco.JCoFunction;
+import com.sap.conn.jco.server.JCoServerContext;
+import com.sap.conn.jco.server.JCoServerFunctionHandler;
+
+public class HandlerZ_FM_TABLE implements JCoServerFunctionHandler {
+	//Implementation of SAP Function Module Code Source
+	@Override
+	public void handleRequest(JCoServerContext serverCtx, JCoFunction function)
+			throws AbapException, AbapClassException {
+		// TODO Auto-generated method stub
+	}
+}

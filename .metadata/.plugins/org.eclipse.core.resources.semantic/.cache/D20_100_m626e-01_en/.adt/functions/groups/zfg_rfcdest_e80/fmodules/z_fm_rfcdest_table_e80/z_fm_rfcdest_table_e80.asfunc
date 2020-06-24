@@ -1,0 +1,25 @@
+FUNCTION Z_FM_RFCDEST_TABLE_E80
+  IMPORTING
+    VALUE(IV_CARRIER) TYPE S_CARR_ID
+  EXPORTING
+    VALUE(ET_EMPLOYEES) TYPE ZTI_EMPLOYEE_E80
+  EXCEPTIONS
+    EX_EMPTY
+    EX_UNKNOWN.
+
+
+
+
+  SELECT carrier, id_employee, firstname, lastname, department, area
+  FROM ztt_employee_e80
+  WHERE carrier = @iv_carrier
+  INTO CORRESPONDING FIELDS OF TABLE @et_employees.
+  IF sy-subrc = 4 .
+    RAISE ex_empty .
+  ENDIF .
+  IF sy-subrc <> 0 .
+    RAISE ex_unknown .
+  ENDIF .
+
+
+ENDFUNCTION.

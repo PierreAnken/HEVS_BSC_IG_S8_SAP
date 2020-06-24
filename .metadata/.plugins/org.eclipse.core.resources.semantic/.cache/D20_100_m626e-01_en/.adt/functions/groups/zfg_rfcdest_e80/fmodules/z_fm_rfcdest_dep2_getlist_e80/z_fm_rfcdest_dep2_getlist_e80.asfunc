@@ -1,0 +1,28 @@
+FUNCTION Z_FM_RFCDEST_DEP2_GETLIST_E80
+  IMPORTING
+    VALUE(IV_CARRIER) TYPE S_CARR_ID
+  EXPORTING
+    VALUE(ES_RESULT) TYPE ZTI_DEPMENT_E80
+  EXCEPTIONS
+    EX_EMPTY
+    EX_UNKNOWN.
+
+
+
+
+
+  SELECT carrier, department, tel, fax
+   FROM ztt_depment_e80
+   WHERE carrier = @iv_carrier
+   INTO CORRESPONDING FIELDS OF TABLE @es_result.
+
+  IF sy-subrc = 4 .
+    RAISE ex_empty .
+  ENDIF .
+  IF sy-subrc <> 0 .
+    RAISE ex_unknown .
+  ENDIF .
+
+
+
+ENDFUNCTION.

@@ -1,0 +1,32 @@
+package sapserver;
+
+import com.sap.conn.jco.JCoDestinationManager;
+import com.sap.conn.jco.JCoException;
+import com.sap.conn.jco.ext.Environment;
+import com.sap.conn.jco.server.DefaultServerHandlerFactory;
+import com.sap.conn.jco.server.JCoServer;
+import com.sap.conn.jco.server.JCoServerFactory;
+import com.sap.conn.jco.server.JCoServerFunctionHandler;
+
+public class SAPServer {
+	
+	// Variable
+	private String _destinationSID;
+	private String _serverSID;
+	private JCoServer _server;
+
+	// Constructor
+	public SAPServer() {
+		
+		// Destination Provider
+		this._destinationSID = "D20";
+		ProviderRFCDestination _rfcdestination = new ProviderRFCDestination(this._destinationSID);
+		Environment.registerDestinationDataProvider(_rfcdestination);
+		
+		// Server Provider
+		this._serverSID = "D20";
+		ProviderRFCServer _rfcserver = new ProviderRFCServer(this._serverSID);
+		Environment.registerServerDataProvider(_rfcserver);
+	}
+
+}

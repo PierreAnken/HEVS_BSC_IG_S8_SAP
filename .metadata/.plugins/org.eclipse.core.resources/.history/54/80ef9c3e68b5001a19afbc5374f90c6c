@@ -1,0 +1,36 @@
+package sapconnector;
+
+import com.sap.conn.jco.ext.Environment;
+
+public class SAPDestination {
+	
+	//Variable
+	private String _destination ;
+	
+	//Constructor
+	public SAPDestination(String sapsid)
+	{
+		this._destination = sapsid ;
+		
+		//Destination Provider
+		ProviderRFCDestination _rfcdestination = new ProviderRFCDestination(sapsid) ;
+		Environment.registerDestinationDataProvider(_rfcdestination);
+	}
+	
+	//Remote Function Module STFC_CONNECTION
+	public void testRFCConnection(String txt)
+	{
+	}
+	//Remote Function Module Z_FM_RFCDEST_VARIABLE_E80
+	public void divide(int number1, int number2)
+	{
+	}
+	//Remote Function Module Z_FM_RFCDEST_STRUCTURE_E80
+	public void displayEmployee(String carrier, int idemployee)
+	{
+	}
+	//Remote Function Module Z_FM_RFCDEST_TABLE_E80
+	public void displayEmployees(String carrier)
+	{
+	}
+}

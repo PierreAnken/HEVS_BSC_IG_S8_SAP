@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="sapconnector.SAPDestination"/>
+<fullyQualifiedTypeName name="com.sap.conn.jco.JCoDestination"/>
+<fullyQualifiedTypeName name="com.sap.conn.jco.JCoDestinationManager"/>
+<fullyQualifiedTypeName name="com.sap.conn.jco.JCoFunction"/>
+<fullyQualifiedTypeName name="com.sap.conn.jco.AbapException"/>
+<fullyQualifiedTypeName name="com.sap.conn.jco.JCoException"/>
+<fullyQualifiedTypeName name="com.sap.conn.jco.JCoStructure"/>
+<fullyQualifiedTypeName name="com.sap.conn.jco.JCoTable"/>
+</qualifiedTypeNameHistroy>

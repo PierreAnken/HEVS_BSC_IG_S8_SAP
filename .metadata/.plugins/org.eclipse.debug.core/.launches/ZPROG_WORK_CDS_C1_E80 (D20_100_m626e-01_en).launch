@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.sap.adt.sapgui.ui.launchConfigurationType">
+<stringAttribute key="OBJECT_NAME" value="ZPROG_WORK_CDS_C1_E80"/>
+<stringAttribute key="OBJECT_TYPE" value="PROG/P"/>
+<stringAttribute key="OBJECT_URI" value="/sap/bc/adt/programs/programs/zprog_work_cds_c1_e80/source/main"/>
+<stringAttribute key="PROJECT_NAME" value="D20_100_m626e-01_en"/>
+<stringAttribute key="WB_ACTION" value="EXECUTE"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/D20_100_m626e-01_en"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+</launchConfiguration>

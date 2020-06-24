@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\SAP\eclipse\2019-12_x64\workspace\.metadata\.plugins\org.eclipse.jdt.core
+2686077665.index
+1683626668.index

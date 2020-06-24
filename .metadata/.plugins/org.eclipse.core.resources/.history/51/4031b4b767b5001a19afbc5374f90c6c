@@ -1,0 +1,12 @@
+package util;
+
+public class Launch(String[] args){
+	
+	import sapconnector.SAPDestination;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SAPDestination server = new SAPDestination("D20");
+	}
+
+}

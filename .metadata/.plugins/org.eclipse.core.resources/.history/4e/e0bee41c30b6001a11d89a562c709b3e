@@ -1,0 +1,20 @@
+package connectors;
+/*  
+	RFC_destination
+	- Serveur java local qui "ecoute" des modules SAP
+	
+	Creation du fonction module
+	- 
+	
+	Mise en place
+	- Enregistrer un écouteur dans SAPServer
+	- Implémentation de la méthode dans HandlerZ_xxx
+	
+	Contenu du handler
+	- Voir les paramètres du module dans SAP E37
+	
+
+
+
+	
+*/

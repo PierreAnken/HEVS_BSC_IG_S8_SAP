@@ -1,0 +1,16 @@
+@EndUserText.label : 'CDS'
+@AbapCatalog.enhancementCategory : #NOT_EXTENSIBLE
+define type zst_abapcds_e80 {
+  id_carrier  : s_carr_id;
+  id_employee : zde_idemployee_e80;
+  lastname    : zde_lname;
+  firstname   : zde_fname;
+  department  : zde_iddepartment_e80;
+  tel         : zde_tel_e80;
+  fax         : zde_fax_e80;
+  area        : zde_area_e80;
+  @Semantics.amount.currencyCode : 'zst_abapcds_e80.currency'
+  salary      : zde_salary_e80;
+  currency    : s_curr;
+
+}

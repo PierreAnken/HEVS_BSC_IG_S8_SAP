@@ -1,0 +1,36 @@
+package sapserver;
+
+import com.sap.conn.jco.AbapClassException;
+import com.sap.conn.jco.AbapException;
+import com.sap.conn.jco.JCoFunction;
+import com.sap.conn.jco.server.JCoServerContext;
+import com.sap.conn.jco.server.JCoServerFunctionHandler;
+
+public class HandlerZ_FM_VARIABLE implements JCoServerFunctionHandler {
+	//Implementation of SAP Function Module Code Source
+	@Override
+	public void handleRequest(JCoServerContext serverCtx, JCoFunction function)
+			throws AbapException, AbapClassException {
+		
+		try {
+
+			//Get Import Parameter
+			int number0 = function.getImportParameterList().getInt("IV_NUMBER0");
+			int number1 = function.getImportParameterList().getInt("IV_NUMBER1");
+			
+			int result = number0/number1;
+			
+			
+			//Set Export Parameter
+			function.getExportParameterList().setValue("EV_RESULT", result);
+			
+		} catch (Exception e) {
+			System.out.println(e.getLocalizedMessage());
+			throw new AbapException("EX_DIVISION_BY_ZERO");
+			
+		}
+		System.out.println("HandlerZ_FM_VARIABLE called");
+		
+
+	}
+}

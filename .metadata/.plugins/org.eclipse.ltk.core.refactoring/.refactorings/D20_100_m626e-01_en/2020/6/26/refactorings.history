@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;Doc/src&apos;&#x0D;&#x0A;- Original project: &apos;D20_100_m626e-01_en&apos;&#x0D;&#x0A;- Destination element: &apos;Doc/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     DroitsAccess.java&#x0D;&#x0A;     Vues.java&#x0D;&#x0A;     QueryLanguage.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="=Doc/src" element1="HowTo/DroitsAccess.java" element2="HowTo/Vues.java" element3="HowTo/QueryLanguage.java" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1592924993443" units="0" version="1.0"/>
+</session>

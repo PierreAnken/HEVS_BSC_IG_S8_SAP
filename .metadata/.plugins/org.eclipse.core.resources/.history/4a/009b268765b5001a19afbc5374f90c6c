@@ -1,0 +1,13 @@
+/* Setup Projet
+
+	Configurer javadoc
+	- Project > Properties > Java Build Path
+	- Add external Jars >  C:\SAP\JCo\sapjco3.jar
+	- Add Javadoc Location > C:/SAP/JCo/javadoc
+
+
+
+
+
+
+*/

@@ -1,0 +1,19 @@
+package sapconnector;
+
+import com.sap.conn.jco.ext.Environment;
+
+public class SAPDestination {
+	
+	//Variable
+	private String _destination ;
+	
+	//Constructor
+	public SAPDestination(String sapsid)
+	{
+		this._destination = sapsid ;
+		
+		//Destination Provider
+		ProviderRFCDestination _rfcdestination = new ProviderRFCDestination(sapsid) ;
+		Environment.registerDestinationDataProvider(_rfcdestination);
+	}
+}

@@ -1,0 +1,29 @@
+FUNCTION Z_FM_RFCDEST_STRUCTURE_E80
+  IMPORTING
+    VALUE(IV_CARRIER) TYPE S_CARR_ID
+    VALUE(IV_IDEMPLOYEE) TYPE ZDE_IDEMPLOYEE_E80
+  EXPORTING
+    VALUE(ES_EMPLOYEE) TYPE ZST_EMPLOYEE_E80
+  EXCEPTIONS
+    EX_EMPTY
+    EX_UNKNOWN.
+
+
+
+
+  SELECT SINGLE carrier, id_employee, firstname, lastname, department, area
+   FROM ztt_employee_E80
+   WHERE carrier = @iv_carrier
+   AND id_employee = @iv_idemployee
+   INTO CORRESPONDING FIELDS OF @es_employee.
+  IF sy-subrc = 4 .
+    RAISE ex_empty .
+  ENDIF .
+  IF sy-subrc <> 0 .
+    RAISE ex_unknown .
+  ENDIF .
+
+
+
+
+ENDFUNCTION.

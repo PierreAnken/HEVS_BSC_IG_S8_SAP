@@ -1,0 +1,42 @@
+*&---------------------------------------------------------------------*
+*& Report zprog_work_cds_c1_e80
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT zprog_work_cds_c2_e80 MESSAGE-ID zmsg_e80.
+
+* Declaration
+DATA : gti_cds TYPE zti_abapcds_e80,
+       gs_cds  LIKE LINE OF gti_cds.
+
+* Parameters
+PARAMETERS : pa_01 TYPE s_carr_id DEFAULT 'SR' OBLIGATORY.
+
+* get data from module
+START-OF-SELECTION .
+  CALL FUNCTION 'Z_FM_ABAPCDS_C2_GET'
+    EXPORTING
+      iv_carrier = pa_01
+    IMPORTING
+      et_abapcds = gti_cds
+    EXCEPTIONS
+      ex_empty   = 1
+      ex_problem = 2
+      OTHERS     = 3.
+
+  CASE sy-subrc.
+    WHEN 0.
+* Display Data
+      LOOP AT gti_cds INTO gs_cds.
+        WRITE : / sy-tabix, gs_cds-id_carrier, gs_cds-id_employee,
+         gs_cds-lastname,gs_cds-firstname, gs_cds-tel, gs_cds-area,gs_cds-salary,gs_cds-currency.
+      ENDLOOP.
+    WHEN 1.
+      MESSAGE e003.
+*   Selection empty
+    WHEN 2 .
+      MESSAGE e002.
+    WHEN 3 .
+      MESSAGE e002.
+*   Unknown SAP Error
+  ENDCASE.

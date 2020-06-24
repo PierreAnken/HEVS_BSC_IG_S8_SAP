@@ -1,0 +1,23 @@
+FUNCTION Z_FM_ABAPCDS_C2_GET
+  IMPORTING
+    VALUE(IV_CARRIER) TYPE S_CARR_ID
+  EXPORTING
+    VALUE(ET_ABAPCDS) TYPE ZTI_ABAPCDS_E80
+  EXCEPTIONS
+    EX_EMPTY
+    EX_UNKNOWN.
+
+
+
+SELECT id_carrier,id_employee,lastname,firstname,department,tel,fax,area,salary,currency
+
+  FROM ZDDL_VIEW_CHALLENGE2_E80( pa_carrier = @IV_CARRIER )
+  INTO CORRESPONDING FIELDS OF TABLE @ET_ABAPCDS.
+
+  IF sy-subrc = 4 .
+    RAISE ex_empty .
+  ENDIF .
+  IF sy-subrc <> 0 .
+    RAISE ex_unknown .
+  ENDIF .
+ENDFUNCTION.

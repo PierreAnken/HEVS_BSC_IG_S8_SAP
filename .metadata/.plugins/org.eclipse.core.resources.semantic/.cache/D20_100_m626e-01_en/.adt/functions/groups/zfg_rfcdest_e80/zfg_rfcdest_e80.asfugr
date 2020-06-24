@@ -1,0 +1,15 @@
+*******************************************************************
+*   System-defined Include-files.                                 *
+*******************************************************************
+  INCLUDE LZFG_RFCDEST_E80TOP.               " Global Declarations
+  INCLUDE LZFG_RFCDEST_E80UXX.               " Function Modules
+
+*******************************************************************
+*   User-defined Include-files (if necessary).                    *
+*******************************************************************
+* INCLUDE LZFG_RFCDEST_E80F...               " Subroutines
+* INCLUDE LZFG_RFCDEST_E80O...               " PBO-Modules
+* INCLUDE LZFG_RFCDEST_E80I...               " PAI-Modules
+* INCLUDE LZFG_RFCDEST_E80E...               " Events
+* INCLUDE LZFG_RFCDEST_E80P...               " Local class implement.
+* INCLUDE LZFG_RFCDEST_E80T99.               " ABAP Unit tests
